@@ -1,1 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: rgb(47, 185, 93);
+}
+.card {
+  display: inline-block;
+  background: white;
+  margin: auto;
+  height: 500px;
+  width: 350px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  content: center;
+  position: relative;
+  .palo-arriba {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 80px;
+  }
+  .palo-abajo {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 80px;
+  }
+}
