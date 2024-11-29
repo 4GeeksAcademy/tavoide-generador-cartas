@@ -13,16 +13,14 @@ body {
   border-radius: 10px;
   content: center;
   position: relative;
-  .palo-arriba {
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    font-size: 80px;
-  }
-  .palo-abajo {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    font-size: 80px;
-  }
+}
+.head-card {
+  background: green;
+}
+.body-card {
+  position: initial;
+  background: gray;
+}
+.footer-card {
+  background: blue;
 }
