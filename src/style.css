@@ -1,5 +1,10 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
   background-color: rgb(47, 185, 93);
 }
 .card {
@@ -22,19 +27,16 @@ body {
 .head-card {
   top: 10px;
   left: 10px;
-  background: green;
 }
 .body-card {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 30%;
+  left: 40%;
   transform: rotate(-50%, -50%);
-  font-size: 50px;
-  background: gray;
+  font-size: 40px;
 }
 .footer-card {
   bottom: 10px;
   right: 10px;
   transform: rotate(180deg);
-  background: blue;
 }
