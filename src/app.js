@@ -27,9 +27,11 @@ let valores = [
 let generarCarta = () => {
   let palo = palos[Math.floor(Math.random() * palos.length)];
   let valor = valores[Math.floor(Math.random() * valores.length)];
-  let figura = ` ${palo}`;
-  let numero = `${valor} ${palo}`;
-  document.getElementById("figura").textContent = figura;
+  let figura = `${palo}`;
+  let numero = `${valor}`;
+  document.querySelectorAll(".figura").forEach(elemento => {
+    elemento.textContent = figura;
+  });
   document.getElementById("numero").textContent = numero;
 };
 generarCarta();
